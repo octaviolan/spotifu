@@ -1,0 +1,39 @@
+@import './icons.css';
+@import './fonts.css';
+
+:root {
+  font-size: 16px;
+  --primary: #00B050;
+  --white: #ffffff;
+  --gray10: #B3B3B3;
+  --gray20: #737373;
+  --gray30: #282828;
+  --gray40: #181818;
+  --gray50: #121212;
+  --gray60: #000000;
+  --basefontFamily: Avenir, Helvetica, sans-serif;
+  --headline1: bold 2rem/normal var(--basefontFamily);
+  --headline2: bold 1.5rem/1.75rem var(--basefontFamily);
+  --baseFont: normal .875rem/1.375rem var(--basefontFamily);
+  --baseFontBold: bold .875rem/1.375rem var(--basefontFamily);
+  --buttom: bold .875rem/1rem var(--basefontFamily);
+  --small: normal .75em/normal var(--basefontFamily);
+}
+
+body {
+  font-family: Avenir;
+  background: var(--primary);
+}
+
+button {
+  font-size: 24px;
+  color: blue;
+  inline-size: 40px;
+  block-size: 40px;
+  border-radius: 50%;
+  border: none;
+}
+
+button:hover {
+  color: red;
+}
