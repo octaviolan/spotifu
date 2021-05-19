@@ -1,0 +1,7 @@
+.menuItem {
+  border: 1px solid red;
+}
+
+.menuItem a {
+  border: 1px solid blue;
+}
