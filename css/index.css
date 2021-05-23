@@ -6,6 +6,8 @@
 @import './sidebar.css';
 @import './ellipsis.css';
 @import './slider.css';
+@import './player-control.css';
+@import './player-playback.css';
 
 
 :root {
