@@ -5,10 +5,7 @@
 @import './button-icon.css';
 @import './sidebar.css';
 @import './ellipsis.css';
-@import './slider.css';
-@import './player-control.css';
-@import './player-playback.css';
-
+@import './player.css';
 
 :root {
   font-size: 16px;

@@ -3,7 +3,6 @@
 }
 
 .ellipsis > * {
-  border: 1px solid red;
   display: block;
   white-space: nowrap;
   overflow: hidden;
