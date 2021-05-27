@@ -8,6 +8,8 @@
 @import './player.css';
 @import './playlist-a.css';
 @import './playlist-b.css';
+@import './playlist-list.css';
+@import './search.css';
 
 :root {
   font-size: 16px;
