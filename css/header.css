@@ -1,0 +1,16 @@
+.header {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-block-start: .75rem;
+  padding-block-end: .75rem;
+  padding-inline-start: 1.5rem;
+
+}
+
+@supports not(backdrop-filter: blur(5px)) {
+  .header {
+    background: red;
+  }
+}
