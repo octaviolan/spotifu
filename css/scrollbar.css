@@ -1,7 +1,17 @@
 ::-webkit-scrollbar {
-  background: red;
+  /* background: red; */
+  inline-size: .5rem;
+  block-size: .5rem;
 }
 
-::-webkit-scrollbar-button {
+/* ::-webkit-scrollbar-button {
   background: blue;
+} */
+
+::-webkit-scrollbar-thumb {
+  background: var(--gray60);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--gray50);
 }
