@@ -1,0 +1,86 @@
+.playlist-head {
+   display: flex;
+  align-items: center;
+  block-size: 2.75rem;
+}
+
+.playlist-head .buttonIcon {
+  margin-inline-end: 5rem;
+}
+
+.playlist-head .title {
+  padding: .75rem;
+  padding-inline-start: 4.125rem;
+  margin: 0;
+  inline-size: 20rem;
+  font-size: .75rem;
+}
+
+.playlist-head .artist {
+  padding: .75rem;
+  margin: 0;
+  inline-size: 17rem;
+   font-size: .75rem;
+}
+
+.playlist-head .album {
+  padding: .75rem;
+  margin: 0;
+  inline-size: 10rem;
+   font-size: .75rem;
+}
+
+.playlist-row {
+  display: flex;
+  align-items: center;
+  block-size: 2.75rem;
+}
+
+.playlist-row .buttonIcon {
+  border: 1px solid var(--white);
+  color: var(--white);
+  inline-size: 1.5rem;
+  block-size: 1.5rem;
+}
+
+.playlist-row .buttonIcon i {
+  font-size: .54rem;
+  top: -.09rem;
+  left: 0;
+}
+
+.playlist-row .player-control {
+  color: var(--white);
+}
+
+.playlist-row .title {
+  inline-size: 20rem;
+  padding: .75rem;
+  margin: 0;
+  color: var(--white);
+}
+
+.playlist-row .artist {
+  inline-size: 17rem;
+  padding: .75rem;
+  margin: 0;
+  color: var(--white);
+}
+
+.playlist-row .album {
+  inline-size: 10rem;
+  padding: .75rem;
+  margin: 0;
+  color: var(--white);
+}
+
+.playlist-row .date {
+  inline-size: 6rem;
+  padding: .75rem;
+  margin: 0;
+}
+.playlist-row .time{
+  padding: .75rem;
+  margin: 0;
+}
+
