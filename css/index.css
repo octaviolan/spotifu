@@ -9,6 +9,7 @@
 @import './page.css';
 @import './layout.css';
 @import './scrollbar.css';
+@import './page-buscar.css';
 
 :root {
   font-size: 14px;

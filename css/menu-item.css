@@ -34,3 +34,7 @@
 .menuItem.is-active .icon-search::before {
   content: "\e914";
 }
+
+.menuItem.is-active .icon-library::before {
+  content: "\e90c";
+}
