@@ -1,0 +1,32 @@
+.filtrar {
+  position: relative;
+}
+
+.filtrar i {
+  position: absolute;
+  font-size: .875rem;
+  color: var(--white);
+  left: .5rem;
+  top: calc(50% - .4375rem);
+}
+
+.filtrar input {
+  padding-block-start: .5rem;
+  padding-block-end: .5rem;
+  padding-inline-start: 1.875rem;
+  inline-size: 31.25rem;
+  font: var(--button);
+  color: var(--gray10);
+  background: none;
+  border-radius: .25rem;
+  border: none;
+}
+
+.filtrar input:focus-within {
+  background: var(--gray20);
+  color: var(--white);
+}
+
+.filtrar input::-webkit-input-placeholder {
+  color: var(--white);
+}
