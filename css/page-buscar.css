@@ -8,7 +8,7 @@
 .categotiasMusica-item {
   inline-size: 12.15rem;
   block-size: 12.15rem;
-  border-radius: 10px;
+  border-radius: .625rem;
   /* border: 1px solid blue; */
   position: relative;
   overflow: hidden;
